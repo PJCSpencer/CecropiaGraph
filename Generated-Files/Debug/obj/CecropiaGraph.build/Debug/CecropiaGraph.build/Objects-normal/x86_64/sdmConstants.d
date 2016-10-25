@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmConstants.cpp \
+  /Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmConstants.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/QString \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qstring.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qchar.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qglobal.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qconfig.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qfeatures.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qsystemdetection.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qprocessordetection.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qcompilerdetection.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qtypeinfo.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qtypetraits.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qsysinfo.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qlogging.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qflags.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qatomic.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qbasicatomic.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qatomic_x86.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qgenericatomic.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qglobalstatic.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qmutex.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qnumeric.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qbytearray.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qrefcount.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qnamespace.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qarraydata.h \
+  /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers/qstringbuilder.h

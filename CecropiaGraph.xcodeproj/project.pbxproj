@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1BA6F83FD872F52F2BDF1F09 /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CecropiaGraph" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0601FCEBC7159D90216A857F /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D9EC6F560C79A09621F55AFE /* QtWidgets.framework */; };
+		06275BCE6D22A3AEB381E3A7 /* sdmNodeView.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C909706AA1B83B4BA68E13F9 /* sdmNodeView.cpp */; settings = {ATTRIBUTES = (); }; };
+		0A55B9689731B81D069F1E27 /* sdmSimpleMatrixItem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B5DDA9156E7D1E729543DF53 /* sdmSimpleMatrixItem.cpp */; settings = {ATTRIBUTES = (); }; };
+		134201145D4CDF38453BE2EA /* sdmBezierScroller.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 37C788A53FF7EB13CF733859 /* sdmBezierScroller.cpp */; settings = {ATTRIBUTES = (); }; };
+		177EF75B50E753754C1C54F4 /* moc_sdmNodeControl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D122482E5C977AF9C52BD58F /* moc_sdmNodeControl.cpp */; settings = {ATTRIBUTES = (); }; };
+		26391CD322C40E9306B1255A /* sdmNodeControlWidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2A9027535F966DE816BDD6E6 /* sdmNodeControlWidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		2FC6EBA24F892EC67E72E7B4 /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8167E7A3CE027CE8CDC50F0C /* QtGui.framework */; };
+		36C0D5940AABCF6FFF929CAD /* moc_sdmPlugConnection.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 095E0F773FD00CEADEC0A937 /* moc_sdmPlugConnection.cpp */; settings = {ATTRIBUTES = (); }; };
+		3AED48CD172A414A96D0182E /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AEF980173E6E16EC40F92951 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		3B1657A4512557F0B8D4C26F /* sdmPlugConnectionWidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B2BE5DC0364C6D9FE37BE7BC /* sdmPlugConnectionWidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		458F769B0DC24F487E24941D /* moc_sdmBezierScrollerAnimation.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 565F26C56358095D829598BD /* moc_sdmBezierScrollerAnimation.cpp */; settings = {ATTRIBUTES = (); }; };
+		4EDBF6B2561BC1EB6829D1E2 /* moc_sdmSimpleMatrixItem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F1C16362301D9FBF40914B99 /* moc_sdmSimpleMatrixItem.cpp */; settings = {ATTRIBUTES = (); }; };
+		515CCF9B29BDB7DF2397FC07 /* moc_sdmPlug.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D8CF1E6094F295776A7F4CF6 /* moc_sdmPlug.cpp */; settings = {ATTRIBUTES = (); }; };
+		52ECBDA6FAA57489456C87EE /* sdmStyles.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2D49F4E38C909AD9C6F127E5 /* sdmStyles.cpp */; settings = {ATTRIBUTES = (); }; };
+		56767D395B50A85DE39801E1 /* moc_sdmSimpleImageItem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5CF6A6CE90D82C3EC92669B8 /* moc_sdmSimpleImageItem.cpp */; settings = {ATTRIBUTES = (); }; };
+		582F3CA37BC9DF2BB27FE5FF /* moc_sdmCustomTextItem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 39152643D92BDDEDFF800B4E /* moc_sdmCustomTextItem.cpp */; settings = {ATTRIBUTES = (); }; };
+		5899641DA56AEC8EB6422F27 /* moc_sdmPlugGroup.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = ACC5B0746378FA46930FD885 /* moc_sdmPlugGroup.cpp */; settings = {ATTRIBUTES = (); }; };
+		5D40B4B3CD2DFA5CAF7CF194 /* moc_sdmNodeControlWidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B2C58058F975B3F2E63A06A4 /* moc_sdmNodeControlWidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		5E2D279A75C5E2843758D0CB /* sdmNodeScene.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2F7DE7EBC041DD228C9EBD10 /* sdmNodeScene.cpp */; settings = {ATTRIBUTES = (); }; };
+		689DAE146ABDFCD29B5DC27F /* sdmPlugConnection.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = ACD7ECBA8F30F888C3E6FFB6 /* sdmPlugConnection.cpp */; settings = {ATTRIBUTES = (); }; };
+		6C784966370D964623EBF26A /* qrc_icons.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BABD50E2FF894EF13CF137E8 /* qrc_icons.cpp */; settings = {ATTRIBUTES = (); }; };
+		6C9DF951DD9AA66FE71BAB93 /* sdmFilterListWidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A84A6852E432088C7D38FDFA /* sdmFilterListWidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		70ADC2C2130EEFFCC76137C4 /* moc_sdmMainwindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 934711214EF7A94CDDF10D20 /* moc_sdmMainwindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		70DCBB3D09C11AA96F00A72B /* moc_sdmPlugConnectionWidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EEB11FE5EF452BFB81EF8835 /* moc_sdmPlugConnectionWidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		74F98576301D55A565A525E5 /* moc_sdmBezierScroller.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2172573DD2CADCB464F71F0A /* moc_sdmBezierScroller.cpp */; settings = {ATTRIBUTES = (); }; };
+		7DF1FE8DA5590941EB40AC0C /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 64C89F1134578DC360DA37E6 /* QtCore.framework */; };
+		804B6A806998D29B44400C8D /* sdmPlug.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 360466EE4FE5628EB226F44D /* sdmPlug.cpp */; settings = {ATTRIBUTES = (); }; };
+		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
+		88DB8DD9594EF1359BE05713 /* sdmMainWindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = FDFF65891C678D899A70CFB6 /* sdmMainWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
+		9524B7180039E6B0F25C767F /* sdmBezierScrollerAnimation.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D6E9AF68B6EE1A2C2070F261 /* sdmBezierScrollerAnimation.cpp */; settings = {ATTRIBUTES = (); }; };
+		9B67CA8EA535F35CB6D9E4CD /* sdmCustomListStyleDelegate.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E71583851D65F18182F5CF8D /* sdmCustomListStyleDelegate.cpp */; settings = {ATTRIBUTES = (); }; };
+		A3D964FDFAD1A2BDE510F57D /* moc_sdmNodeView.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 824C21B4D76D88D05609FDCC /* moc_sdmNodeView.cpp */; settings = {ATTRIBUTES = (); }; };
+		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		AF806E0562594A25CFD87625 /* sdmSimpleImageItem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BBB4CC349253CE72F3CFC4EC /* sdmSimpleImageItem.cpp */; settings = {ATTRIBUTES = (); }; };
+		B3997750496B8D745E3E9454 /* sdmNodeControl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B03366CA6AE4E1CE3A8B2546 /* sdmNodeControl.cpp */; settings = {ATTRIBUTES = (); }; };
+		B4D1066BDDDBE3609E5B9FCD /* moc_sdmNodeScene.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4E5EF4284D7ED3F418B989EF /* moc_sdmNodeScene.cpp */; settings = {ATTRIBUTES = (); }; };
+		B51E6D8741419055ABDDEADB /* sdmPainterPathUtility.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AA96EA32013BA897A0B3BA90 /* sdmPainterPathUtility.cpp */; settings = {ATTRIBUTES = (); }; };
+		B8571549765C4B0B9FF23967 /* sdmNodeLibrary.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A853EDFE0A1E5C1CB08825B1 /* sdmNodeLibrary.cpp */; settings = {ATTRIBUTES = (); }; };
+		BAA7320E827F8E5087C2A0BB /* sdmPlugGroup.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9085EDD8B323B9D48BFDC965 /* sdmPlugGroup.cpp */; settings = {ATTRIBUTES = (); }; };
+		BABEA7F9E94477F77A9E5638 /* moc_sdmFilterListWidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 57A32F4A7BD20DA2CADE7DA7 /* moc_sdmFilterListWidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		BD4663C6A026FA291809BA03 /* sdmFilterListStyleDelegate.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D7179FB585045120671DA05D /* sdmFilterListStyleDelegate.cpp */; settings = {ATTRIBUTES = (); }; };
+		DF71477CF146CDBB6D7871CE /* sdmCustomTextItem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4C1394E152B76E53CDEC50DE /* sdmCustomTextItem.cpp */; settings = {ATTRIBUTES = (); }; };
+		E08E41F9C3BCA900AF862EBF /* QtSvg.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3F4D352983E7D41B5B684208 /* QtSvg.framework */; };
+		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
+		E4F6D83106DE59D49491DCEE /* moc_sdmBezierScrollerItem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7D60650F6A9D878415004179 /* moc_sdmBezierScrollerItem.cpp */; settings = {ATTRIBUTES = (); }; };
+		F6DE162AACE43A209A4A8F38 /* sdmConstants.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C1B05D0456EE91A823469A17 /* sdmConstants.cpp */; settings = {ATTRIBUTES = (); }; };
+		FE12D9937C7C3E5980338541 /* sdmBezierScrollerItem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6495B96509628B71D97F425B /* sdmBezierScrollerItem.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40215E11D7814EB00D3D81C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA6F83FD872F52F2BDF1F09;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0220404A5D4A07E42DB1F6DD /* sdmPlugConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmPlugConnection.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmPlugConnection.h"; sourceTree = "<absolute>"; };
+		06B906D48EF4A1216B9F4F65 /* sdmNodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmNodeView.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmNodeView.h"; sourceTree = "<absolute>"; };
+		095E0F773FD00CEADEC0A937 /* moc_sdmPlugConnection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmPlugConnection.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmPlugConnection.cpp"; sourceTree = "<absolute>"; };
+		0E9178ED7153317B8A772729 /* sdmFilterListWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmFilterListWidget.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmFilterListWidget.h"; sourceTree = "<absolute>"; };
+		1B8492FC951CF413CBB28A7F /* sdmNodeLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmNodeLibrary.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmNodeLibrary.h"; sourceTree = "<absolute>"; };
+		2172573DD2CADCB464F71F0A /* moc_sdmBezierScroller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmBezierScroller.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmBezierScroller.cpp"; sourceTree = "<absolute>"; };
+		22646AF5C6E9E9ACD46C2605 /* sdmSimpleImageItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmSimpleImageItem.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmSimpleImageItem.h"; sourceTree = "<absolute>"; };
+		229C50C6BF007515CAB2A75E /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/.qmake.stash"; sourceTree = "<absolute>"; };
+		28C7A3A8FCACDD5C8C3BB9F2 /* sdmConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmConstants.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmConstants.h"; sourceTree = "<absolute>"; };
+		2A9027535F966DE816BDD6E6 /* sdmNodeControlWidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmNodeControlWidget.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmNodeControlWidget.cpp"; sourceTree = "<absolute>"; };
+		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		2D49F4E38C909AD9C6F127E5 /* sdmStyles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmStyles.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmStyles.cpp"; sourceTree = "<absolute>"; };
+		2F6230B28EEDD0155C767343 /* sdmNodeScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmNodeScene.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmNodeScene.h"; sourceTree = "<absolute>"; };
+		2F7DE7EBC041DD228C9EBD10 /* sdmNodeScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmNodeScene.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmNodeScene.cpp"; sourceTree = "<absolute>"; };
+		34DA22349141D22DB703D364 /* sdmStyles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmStyles.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmStyles.h"; sourceTree = "<absolute>"; };
+		360466EE4FE5628EB226F44D /* sdmPlug.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmPlug.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmPlug.cpp"; sourceTree = "<absolute>"; };
+		37C788A53FF7EB13CF733859 /* sdmBezierScroller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmBezierScroller.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmBezierScroller.cpp"; sourceTree = "<absolute>"; };
+		39152643D92BDDEDFF800B4E /* moc_sdmCustomTextItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmCustomTextItem.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmCustomTextItem.cpp"; sourceTree = "<absolute>"; };
+		3B57D5483F7DD0DE8B66BADC /* CecropiaGraph.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = CecropiaGraph.pro; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/CecropiaGraph.pro"; sourceTree = "<absolute>"; };
+		3F4D352983E7D41B5B684208 /* QtSvg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtSvg.framework; path = /Users/Home/Documents/Qt/5.5/clang_64/lib/QtSvg.framework; sourceTree = "<absolute>"; };
+		4A834E91F19ACB04A1AF71A3 /* sdmPlugConnectionWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmPlugConnectionWidget.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmPlugConnectionWidget.h"; sourceTree = "<absolute>"; };
+		4C1394E152B76E53CDEC50DE /* sdmCustomTextItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmCustomTextItem.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmCustomTextItem.cpp"; sourceTree = "<absolute>"; };
+		4E5EF4284D7ED3F418B989EF /* moc_sdmNodeScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmNodeScene.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmNodeScene.cpp"; sourceTree = "<absolute>"; };
+		565F26C56358095D829598BD /* moc_sdmBezierScrollerAnimation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmBezierScrollerAnimation.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmBezierScrollerAnimation.cpp"; sourceTree = "<absolute>"; };
+		57A32F4A7BD20DA2CADE7DA7 /* moc_sdmFilterListWidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmFilterListWidget.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmFilterListWidget.cpp"; sourceTree = "<absolute>"; };
+		5CF6A6CE90D82C3EC92669B8 /* moc_sdmSimpleImageItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmSimpleImageItem.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmSimpleImageItem.cpp"; sourceTree = "<absolute>"; };
+		6495B96509628B71D97F425B /* sdmBezierScrollerItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmBezierScrollerItem.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmBezierScrollerItem.cpp"; sourceTree = "<absolute>"; };
+		64C89F1134578DC360DA37E6 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		686E7A210A1F37C8875FBA66 /* sdmBezierScrollerItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmBezierScrollerItem.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmBezierScrollerItem.h"; sourceTree = "<absolute>"; };
+		69F05B86584B33A9363A56C6 /* sdmFilterListStyleDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmFilterListStyleDelegate.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmFilterListStyleDelegate.h"; sourceTree = "<absolute>"; };
+		6A0FC132E48170177A49F272 /* CecropiaGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CecropiaGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D60650F6A9D878415004179 /* moc_sdmBezierScrollerItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmBezierScrollerItem.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmBezierScrollerItem.cpp"; sourceTree = "<absolute>"; };
+		7DD6881891E58565CAD2E33C /* icons.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = icons.qrc; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/res/svg/icons.qrc"; sourceTree = "<absolute>"; };
+		8167E7A3CE027CE8CDC50F0C /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Users/Home/Documents/Qt/5.5/clang_64/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		824C21B4D76D88D05609FDCC /* moc_sdmNodeView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmNodeView.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmNodeView.cpp"; sourceTree = "<absolute>"; };
+		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		9085EDD8B323B9D48BFDC965 /* sdmPlugGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmPlugGroup.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmPlugGroup.cpp"; sourceTree = "<absolute>"; };
+		91609E5AD915FD47694BB472 /* sdmPlug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmPlug.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmPlug.h"; sourceTree = "<absolute>"; };
+		92C5324B587B7AF924B5F3CD /* sdmBezierScroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmBezierScroller.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmBezierScroller.h"; sourceTree = "<absolute>"; };
+		934711214EF7A94CDDF10D20 /* moc_sdmMainwindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmMainwindow.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmMainwindow.cpp"; sourceTree = "<absolute>"; };
+		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		A84A6852E432088C7D38FDFA /* sdmFilterListWidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmFilterListWidget.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmFilterListWidget.cpp"; sourceTree = "<absolute>"; };
+		A853EDFE0A1E5C1CB08825B1 /* sdmNodeLibrary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmNodeLibrary.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmNodeLibrary.cpp"; sourceTree = "<absolute>"; };
+		AA96EA32013BA897A0B3BA90 /* sdmPainterPathUtility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmPainterPathUtility.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmPainterPathUtility.cpp"; sourceTree = "<absolute>"; };
+		ACC5B0746378FA46930FD885 /* moc_sdmPlugGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmPlugGroup.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmPlugGroup.cpp"; sourceTree = "<absolute>"; };
+		ACD7ECBA8F30F888C3E6FFB6 /* sdmPlugConnection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmPlugConnection.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmPlugConnection.cpp"; sourceTree = "<absolute>"; };
+		AD24C73DBC381ECC023DA151 /* sdmNodeControlWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmNodeControlWidget.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmNodeControlWidget.h"; sourceTree = "<absolute>"; };
+		AEF980173E6E16EC40F92951 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/main.cpp"; sourceTree = "<absolute>"; };
+		AF582F652B43806ABDB7A65F /* sdmMainwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmMainwindow.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/sdmMainwindow.h"; sourceTree = "<absolute>"; };
+		B03366CA6AE4E1CE3A8B2546 /* sdmNodeControl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmNodeControl.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmNodeControl.cpp"; sourceTree = "<absolute>"; };
+		B09D52EDC2F822C9AD69CAA6 /* sdmPainterPathUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmPainterPathUtility.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmPainterPathUtility.h"; sourceTree = "<absolute>"; };
+		B2BE5DC0364C6D9FE37BE7BC /* sdmPlugConnectionWidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmPlugConnectionWidget.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmPlugConnectionWidget.cpp"; sourceTree = "<absolute>"; };
+		B2C58058F975B3F2E63A06A4 /* moc_sdmNodeControlWidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmNodeControlWidget.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmNodeControlWidget.cpp"; sourceTree = "<absolute>"; };
+		B5DDA9156E7D1E729543DF53 /* sdmSimpleMatrixItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmSimpleMatrixItem.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmSimpleMatrixItem.cpp"; sourceTree = "<absolute>"; };
+		BABD50E2FF894EF13CF137E8 /* qrc_icons.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_icons.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/qrc/qrc_icons.cpp"; sourceTree = "<absolute>"; };
+		BBB4CC349253CE72F3CFC4EC /* sdmSimpleImageItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmSimpleImageItem.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmSimpleImageItem.cpp"; sourceTree = "<absolute>"; };
+		BEF82E28319B0720711AAA49 /* sdmCustomListStyleDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmCustomListStyleDelegate.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmCustomListStyleDelegate.h"; sourceTree = "<absolute>"; };
+		C1B05D0456EE91A823469A17 /* sdmConstants.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmConstants.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmConstants.cpp"; sourceTree = "<absolute>"; };
+		C25387C72C510DC8D1C8BE79 /* sdmPlugGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmPlugGroup.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmPlugGroup.h"; sourceTree = "<absolute>"; };
+		C909706AA1B83B4BA68E13F9 /* sdmNodeView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmNodeView.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmNodeView.cpp"; sourceTree = "<absolute>"; };
+		D122482E5C977AF9C52BD58F /* moc_sdmNodeControl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmNodeControl.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmNodeControl.cpp"; sourceTree = "<absolute>"; };
+		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		D6E9AF68B6EE1A2C2070F261 /* sdmBezierScrollerAnimation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmBezierScrollerAnimation.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmBezierScrollerAnimation.cpp"; sourceTree = "<absolute>"; };
+		D7179FB585045120671DA05D /* sdmFilterListStyleDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmFilterListStyleDelegate.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmFilterListStyleDelegate.cpp"; sourceTree = "<absolute>"; };
+		D85B2255360291CC2C79847B /* sdmBezierScrollerAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmBezierScrollerAnimation.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmBezierScrollerAnimation.h"; sourceTree = "<absolute>"; };
+		D8CF1E6094F295776A7F4CF6 /* moc_sdmPlug.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmPlug.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmPlug.cpp"; sourceTree = "<absolute>"; };
+		D9EC6F560C79A09621F55AFE /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /Users/Home/Documents/Qt/5.5/clang_64/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
+		DADCA37D5C4BD3A0ED1B9A14 /* sdmCustomTextItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmCustomTextItem.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmCustomTextItem.h"; sourceTree = "<absolute>"; };
+		E71583851D65F18182F5CF8D /* sdmCustomListStyleDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmCustomListStyleDelegate.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmCustomListStyleDelegate.cpp"; sourceTree = "<absolute>"; };
+		EDC306ED1CFF7B3904AE8507 /* sdmNodeControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmNodeControl.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmNodeControl.h"; sourceTree = "<absolute>"; };
+		EEB11FE5EF452BFB81EF8835 /* moc_sdmPlugConnectionWidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmPlugConnectionWidget.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmPlugConnectionWidget.cpp"; sourceTree = "<absolute>"; };
+		F1C16362301D9FBF40914B99 /* moc_sdmSimpleMatrixItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_sdmSimpleMatrixItem.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmSimpleMatrixItem.cpp"; sourceTree = "<absolute>"; };
+		F5A590C5AF825E86A2F602EE /* sdmSimpleMatrixItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdmSimpleMatrixItem.h; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers-dm/cecropia-graph/sdmSimpleMatrixItem.h"; sourceTree = "<absolute>"; };
+		FDFF65891C678D899A70CFB6 /* sdmMainWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdmMainWindow.cpp; path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/sdmMainWindow.cpp"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08E41F9C3BCA900AF862EBF /* QtSvg.framework in Link Binary With Libraries */,
+				0601FCEBC7159D90216A857F /* QtWidgets.framework in Link Binary With Libraries */,
+				2FC6EBA24F892EC67E72E7B4 /* QtGui.framework in Link Binary With Libraries */,
+				7DF1FE8DA5590941EB40AC0C /* QtCore.framework in Link Binary With Libraries */,
+				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
+				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
+				8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */,
+				E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178A2ABCED69628A7D5E0D78 /* qrc */ = {
+			isa = PBXGroup;
+			children = (
+				BABD50E2FF894EF13CF137E8 /* qrc_icons.cpp */,
+			);
+			name = qrc;
+			sourceTree = "<Group>";
+		};
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4A35260765064D72943021F4 /* Generated-Files */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				921315FAA7F261D737F4F4C7 /* src */,
+			);
+			name = Sources;
+			sourceTree = "<Group>";
+		};
+		3C4C27987523EDEA6C4A132F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				178A2ABCED69628A7D5E0D78 /* qrc */,
+				C9B7A7D1D901DB78B230E372 /* moc */,
+			);
+			name = Debug;
+			sourceTree = "<Group>";
+		};
+		4A35260765064D72943021F4 /* Generated-Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C4C27987523EDEA6C4A132F /* Debug */,
+			);
+			name = "Generated-Files";
+			sourceTree = "<Group>";
+		};
+		5237B278D3E0F751EFB167AB /* svg */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = svg;
+			sourceTree = "<Group>";
+		};
+		593DF2FDF2AE5CA3E19C0414 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				6922E355FA80853888982739 /* svg */,
+			);
+			name = res;
+			sourceTree = "<Group>";
+		};
+		5CB877351FEF33D6B42E534B /* cecropia-graph */ = {
+			isa = PBXGroup;
+			children = (
+				C1B05D0456EE91A823469A17 /* sdmConstants.cpp */,
+				A853EDFE0A1E5C1CB08825B1 /* sdmNodeLibrary.cpp */,
+				C909706AA1B83B4BA68E13F9 /* sdmNodeView.cpp */,
+				2F7DE7EBC041DD228C9EBD10 /* sdmNodeScene.cpp */,
+				B03366CA6AE4E1CE3A8B2546 /* sdmNodeControl.cpp */,
+				2A9027535F966DE816BDD6E6 /* sdmNodeControlWidget.cpp */,
+				37C788A53FF7EB13CF733859 /* sdmBezierScroller.cpp */,
+				6495B96509628B71D97F425B /* sdmBezierScrollerItem.cpp */,
+				D6E9AF68B6EE1A2C2070F261 /* sdmBezierScrollerAnimation.cpp */,
+				360466EE4FE5628EB226F44D /* sdmPlug.cpp */,
+				9085EDD8B323B9D48BFDC965 /* sdmPlugGroup.cpp */,
+				ACD7ECBA8F30F888C3E6FFB6 /* sdmPlugConnection.cpp */,
+				B2BE5DC0364C6D9FE37BE7BC /* sdmPlugConnectionWidget.cpp */,
+				BBB4CC349253CE72F3CFC4EC /* sdmSimpleImageItem.cpp */,
+				4C1394E152B76E53CDEC50DE /* sdmCustomTextItem.cpp */,
+				B5DDA9156E7D1E729543DF53 /* sdmSimpleMatrixItem.cpp */,
+				A84A6852E432088C7D38FDFA /* sdmFilterListWidget.cpp */,
+				D7179FB585045120671DA05D /* sdmFilterListStyleDelegate.cpp */,
+				E71583851D65F18182F5CF8D /* sdmCustomListStyleDelegate.cpp */,
+				AA96EA32013BA897A0B3BA90 /* sdmPainterPathUtility.cpp */,
+				2D49F4E38C909AD9C6F127E5 /* sdmStyles.cpp */,
+				28C7A3A8FCACDD5C8C3BB9F2 /* sdmConstants.h */,
+				1B8492FC951CF413CBB28A7F /* sdmNodeLibrary.h */,
+				06B906D48EF4A1216B9F4F65 /* sdmNodeView.h */,
+				2F6230B28EEDD0155C767343 /* sdmNodeScene.h */,
+				EDC306ED1CFF7B3904AE8507 /* sdmNodeControl.h */,
+				AD24C73DBC381ECC023DA151 /* sdmNodeControlWidget.h */,
+				92C5324B587B7AF924B5F3CD /* sdmBezierScroller.h */,
+				686E7A210A1F37C8875FBA66 /* sdmBezierScrollerItem.h */,
+				D85B2255360291CC2C79847B /* sdmBezierScrollerAnimation.h */,
+				91609E5AD915FD47694BB472 /* sdmPlug.h */,
+				C25387C72C510DC8D1C8BE79 /* sdmPlugGroup.h */,
+				0220404A5D4A07E42DB1F6DD /* sdmPlugConnection.h */,
+				4A834E91F19ACB04A1AF71A3 /* sdmPlugConnectionWidget.h */,
+				22646AF5C6E9E9ACD46C2605 /* sdmSimpleImageItem.h */,
+				DADCA37D5C4BD3A0ED1B9A14 /* sdmCustomTextItem.h */,
+				F5A590C5AF825E86A2F602EE /* sdmSimpleMatrixItem.h */,
+				0E9178ED7153317B8A772729 /* sdmFilterListWidget.h */,
+				69F05B86584B33A9363A56C6 /* sdmFilterListStyleDelegate.h */,
+				BEF82E28319B0720711AAA49 /* sdmCustomListStyleDelegate.h */,
+				B09D52EDC2F822C9AD69CAA6 /* sdmPainterPathUtility.h */,
+				34DA22349141D22DB703D364 /* sdmStyles.h */,
+			);
+			name = "cecropia-graph";
+			sourceTree = "<Group>";
+		};
+		68E8F8182CB8E5C50181EF72 /* spencers-dm */ = {
+			isa = PBXGroup;
+			children = (
+				5CB877351FEF33D6B42E534B /* cecropia-graph */,
+			);
+			name = "spencers-dm";
+			sourceTree = "<Group>";
+		};
+		6922E355FA80853888982739 /* svg */ = {
+			isa = PBXGroup;
+			children = (
+				7DD6881891E58565CAD2E33C /* icons.qrc */,
+			);
+			name = svg;
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B57D5483F7DD0DE8B66BADC /* CecropiaGraph.pro */,
+				229C50C6BF007515CAB2A75E /* .qmake.stash */,
+				AE61DEBFAB686F34C1D47357 /* res */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		87DF60DE337FB58864343E39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				593DF2FDF2AE5CA3E19C0414 /* res */,
+			);
+			name = Resources;
+			sourceTree = "<Group>";
+		};
+		921315FAA7F261D737F4F4C7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AEF980173E6E16EC40F92951 /* main.cpp */,
+				FDFF65891C678D899A70CFB6 /* sdmMainWindow.cpp */,
+				68E8F8182CB8E5C50181EF72 /* spencers-dm */,
+				AF582F652B43806ABDB7A65F /* sdmMainwindow.h */,
+			);
+			name = src;
+			sourceTree = "<Group>";
+		};
+		AE61DEBFAB686F34C1D47357 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				5237B278D3E0F751EFB167AB /* svg */,
+			);
+			name = res;
+			sourceTree = "<Group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F4D352983E7D41B5B684208 /* QtSvg.framework */,
+				D9EC6F560C79A09621F55AFE /* QtWidgets.framework */,
+				8167E7A3CE027CE8CDC50F0C /* QtGui.framework */,
+				64C89F1134578DC360DA37E6 /* QtCore.framework */,
+				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
+				A1A67BEAA744704B29168D39 /* IOKit.framework */,
+				D4B32C2222F82AC56BADEB21 /* OpenGL.framework */,
+				8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<Group>";
+		};
+		C9B7A7D1D901DB78B230E372 /* moc */ = {
+			isa = PBXGroup;
+			children = (
+				934711214EF7A94CDDF10D20 /* moc_sdmMainwindow.cpp */,
+				824C21B4D76D88D05609FDCC /* moc_sdmNodeView.cpp */,
+				4E5EF4284D7ED3F418B989EF /* moc_sdmNodeScene.cpp */,
+				D122482E5C977AF9C52BD58F /* moc_sdmNodeControl.cpp */,
+				B2C58058F975B3F2E63A06A4 /* moc_sdmNodeControlWidget.cpp */,
+				2172573DD2CADCB464F71F0A /* moc_sdmBezierScroller.cpp */,
+				7D60650F6A9D878415004179 /* moc_sdmBezierScrollerItem.cpp */,
+				565F26C56358095D829598BD /* moc_sdmBezierScrollerAnimation.cpp */,
+				D8CF1E6094F295776A7F4CF6 /* moc_sdmPlug.cpp */,
+				ACC5B0746378FA46930FD885 /* moc_sdmPlugGroup.cpp */,
+				095E0F773FD00CEADEC0A937 /* moc_sdmPlugConnection.cpp */,
+				EEB11FE5EF452BFB81EF8835 /* moc_sdmPlugConnectionWidget.cpp */,
+				5CF6A6CE90D82C3EC92669B8 /* moc_sdmSimpleImageItem.cpp */,
+				39152643D92BDDEDFF800B4E /* moc_sdmCustomTextItem.cpp */,
+				F1C16362301D9FBF40914B99 /* moc_sdmSimpleMatrixItem.cpp */,
+				57A32F4A7BD20DA2CADE7DA7 /* moc_sdmFilterListWidget.cpp */,
+			);
+			name = moc;
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* CecropiaGraph */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				87DF60DE337FB58864343E39 /* Resources */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = CecropiaGraph;
+			sourceTree = "<Group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A0FC132E48170177A49F272 /* CecropiaGraph.app */,
+			);
+			name = Products;
+			sourceTree = "<Group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A9969BB88A3E3A53FC28EAF /* CecropiaGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CecropiaGraph" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				9C316F444A62BF296E3E1F25 /* Project Copy */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CAEBCBF255F9234939F4DC /* PBXTargetDependency */,
+			);
+			name = CecropiaGraph;
+			productInstallPath = "Generated-Files/Debug/";
+			productName = CecropiaGraph;
+			productReference = 6A0FC132E48170177A49F272 /* CecropiaGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "CecropiaGraph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* CecropiaGraph */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A9969BB88A3E3A53FC28EAF /* CecropiaGraph */,
+				1BA6F83FD872F52F2BDF1F09 /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/ -f CecropiaGraph.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/ -f CecropiaGraph.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+		9C316F444A62BF296E3E1F25 /* Project Copy */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Project Copy";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -r $BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME /Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AED48CD172A414A96D0182E /* main.cpp in Compile Sources */,
+				88DB8DD9594EF1359BE05713 /* sdmMainWindow.cpp in Compile Sources */,
+				F6DE162AACE43A209A4A8F38 /* sdmConstants.cpp in Compile Sources */,
+				B8571549765C4B0B9FF23967 /* sdmNodeLibrary.cpp in Compile Sources */,
+				06275BCE6D22A3AEB381E3A7 /* sdmNodeView.cpp in Compile Sources */,
+				5E2D279A75C5E2843758D0CB /* sdmNodeScene.cpp in Compile Sources */,
+				B3997750496B8D745E3E9454 /* sdmNodeControl.cpp in Compile Sources */,
+				26391CD322C40E9306B1255A /* sdmNodeControlWidget.cpp in Compile Sources */,
+				134201145D4CDF38453BE2EA /* sdmBezierScroller.cpp in Compile Sources */,
+				FE12D9937C7C3E5980338541 /* sdmBezierScrollerItem.cpp in Compile Sources */,
+				9524B7180039E6B0F25C767F /* sdmBezierScrollerAnimation.cpp in Compile Sources */,
+				804B6A806998D29B44400C8D /* sdmPlug.cpp in Compile Sources */,
+				BAA7320E827F8E5087C2A0BB /* sdmPlugGroup.cpp in Compile Sources */,
+				689DAE146ABDFCD29B5DC27F /* sdmPlugConnection.cpp in Compile Sources */,
+				3B1657A4512557F0B8D4C26F /* sdmPlugConnectionWidget.cpp in Compile Sources */,
+				AF806E0562594A25CFD87625 /* sdmSimpleImageItem.cpp in Compile Sources */,
+				DF71477CF146CDBB6D7871CE /* sdmCustomTextItem.cpp in Compile Sources */,
+				0A55B9689731B81D069F1E27 /* sdmSimpleMatrixItem.cpp in Compile Sources */,
+				6C9DF951DD9AA66FE71BAB93 /* sdmFilterListWidget.cpp in Compile Sources */,
+				BD4663C6A026FA291809BA03 /* sdmFilterListStyleDelegate.cpp in Compile Sources */,
+				9B67CA8EA535F35CB6D9E4CD /* sdmCustomListStyleDelegate.cpp in Compile Sources */,
+				B51E6D8741419055ABDDEADB /* sdmPainterPathUtility.cpp in Compile Sources */,
+				52ECBDA6FAA57489456C87EE /* sdmStyles.cpp in Compile Sources */,
+				6C784966370D964623EBF26A /* qrc_icons.cpp in Compile Sources */,
+				70ADC2C2130EEFFCC76137C4 /* moc_sdmMainwindow.cpp in Compile Sources */,
+				A3D964FDFAD1A2BDE510F57D /* moc_sdmNodeView.cpp in Compile Sources */,
+				B4D1066BDDDBE3609E5B9FCD /* moc_sdmNodeScene.cpp in Compile Sources */,
+				177EF75B50E753754C1C54F4 /* moc_sdmNodeControl.cpp in Compile Sources */,
+				5D40B4B3CD2DFA5CAF7CF194 /* moc_sdmNodeControlWidget.cpp in Compile Sources */,
+				74F98576301D55A565A525E5 /* moc_sdmBezierScroller.cpp in Compile Sources */,
+				E4F6D83106DE59D49491DCEE /* moc_sdmBezierScrollerItem.cpp in Compile Sources */,
+				458F769B0DC24F487E24941D /* moc_sdmBezierScrollerAnimation.cpp in Compile Sources */,
+				515CCF9B29BDB7DF2397FC07 /* moc_sdmPlug.cpp in Compile Sources */,
+				5899641DA56AEC8EB6422F27 /* moc_sdmPlugGroup.cpp in Compile Sources */,
+				36C0D5940AABCF6FFF929CAD /* moc_sdmPlugConnection.cpp in Compile Sources */,
+				70DCBB3D09C11AA96F00A72B /* moc_sdmPlugConnectionWidget.cpp in Compile Sources */,
+				56767D395B50A85DE39801E1 /* moc_sdmSimpleImageItem.cpp in Compile Sources */,
+				582F3CA37BC9DF2BB27FE5FF /* moc_sdmCustomTextItem.cpp in Compile Sources */,
+				4EDBF6B2561BC1EB6829D1E2 /* moc_sdmSimpleMatrixItem.cpp in Compile Sources */,
+				BABEA7F9E94477F77A9E5638 /* moc_sdmFilterListWidget.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05CAEBCBF255F9234939F4DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA6F83FD872F52F2BDF1F09 /* Qt Preprocess */;
+			targetProxy = F40215E11D7814EB00D3D81C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				COPY_PHASE_STRIP = YES;
+				CPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/usr/bin/g++";
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Home/Documents/Qt/5.5/clang_64/lib,
+					/Users/Home/Documents/Qt/5.5/clang_64/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/Users/Home/Documents/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+					/Users/Home/Documents/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/Home/Documents/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"Generated-Files/Debug/moc",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"/Users/Home/Documents/Qt/5.5/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_DIR = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode//Generated-Files/Debug/";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/Home/Documents/Qt/5.5/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OBJROOT = "Generated-Files/Debug/obj/";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_USE_QSTRINGBUILDER",
+					"-DQT_NO_DEBUG",
+					"-DQT_SVG_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-std=c++14",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_USE_QSTRINGBUILDER",
+					"-DQT_NO_DEBUG",
+					"-DQT_SVG_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-Wl,-rpath,/Users/Home/Documents/Qt/5.5/clang_64/lib",
+					"-F/Users/Home/Documents/Qt/5.5/clang_64/lib",
+				);
+				PRODUCT_NAME = CecropiaGraph;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/";
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				COPY_PHASE_STRIP = NO;
+				CPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/usr/bin/g++";
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Home/Documents/Qt/5.5/clang_64/lib,
+					/Users/Home/Documents/Qt/5.5/clang_64/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/Users/Home/Documents/Qt/5.5/clang_64/lib/QtSvg.framework/Headers,
+					/Users/Home/Documents/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/Home/Documents/Qt/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers,
+					"Generated-Files/Debug/moc",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"/Users/Home/Documents/Qt/5.5/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_DIR = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode//Generated-Files/Debug/";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/Home/Documents/Qt/5.5/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OBJROOT = "Generated-Files/Debug/obj/";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_USE_QSTRINGBUILDER",
+					"-DQT_NO_DEBUG",
+					"-DQT_SVG_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-std=c++14",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_USE_QSTRINGBUILDER",
+					"-DQT_NO_DEBUG",
+					"-DQT_SVG_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-Wl,-rpath,/Users/Home/Documents/Qt/5.5/clang_64/lib",
+					"-F/Users/Home/Documents/Qt/5.5/clang_64/lib",
+				);
+				PRODUCT_NAME = CecropiaGraph;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = macosx;
+				SYMROOT = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/";
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = CecropiaGraph;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = CecropiaGraph;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CecropiaGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "CecropiaGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}

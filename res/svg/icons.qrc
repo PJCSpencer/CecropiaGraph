@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>DisclosurePositive.svg</file>
+        <file>DisclosureNegative.svg</file>
+    </qresource>
+</RCC>

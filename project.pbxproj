@@ -1,0 +1,1456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode -f qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		AEF980173E6E16EC40F92951 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3AED48CD172A414A96D0182E = {
+			fileRef = "AEF980173E6E16EC40F92951";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FDFF65891C678D899A70CFB6 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/sdmMainWindow.cpp";
+			name = "sdmMainWindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		88DB8DD9594EF1359BE05713 = {
+			fileRef = "FDFF65891C678D899A70CFB6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		668CC88F72C0D59B2A07AB31 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmConstants.cpp";
+			name = "sdmConstants.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		55F9BAFB69FC204A1669C5A4 = {
+			fileRef = "668CC88F72C0D59B2A07AB31";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D22E06BF8A8D385838DA1A0A = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmNodeLibrary.cpp";
+			name = "sdmNodeLibrary.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		33E1AD3CF950CAFBE778C4EB = {
+			fileRef = "D22E06BF8A8D385838DA1A0A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		091E2AC78AB5E4C48D3F2BB4 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmNodeView.cpp";
+			name = "sdmNodeView.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		195EBB453E887C6BF462CF6E = {
+			fileRef = "091E2AC78AB5E4C48D3F2BB4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		16410223F39856E0A3DBF194 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmSceneItemDrop.cpp";
+			name = "sdmSceneItemDrop.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		10440BE116D9DC756FAF1111 = {
+			fileRef = "16410223F39856E0A3DBF194";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		46F67DA8BB93698B6D31C9C2 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmNodeScene.cpp";
+			name = "sdmNodeScene.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F5C3974AF919D32322630E4B = {
+			fileRef = "46F67DA8BB93698B6D31C9C2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		21D9DE1EA8D8DA1315E99311 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmNodeControl.cpp";
+			name = "sdmNodeControl.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		100A5D4A7E0595F2AB5CC7F9 = {
+			fileRef = "21D9DE1EA8D8DA1315E99311";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2028C64EACC8DA48AE0A142A = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmBezierScroller.cpp";
+			name = "sdmBezierScroller.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D96E2E43365F16F2B4A1F518 = {
+			fileRef = "2028C64EACC8DA48AE0A142A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		985AC89F83328254418CAD26 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmBezierScrollerItem.cpp";
+			name = "sdmBezierScrollerItem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		76152351DE006F31A334DBF1 = {
+			fileRef = "985AC89F83328254418CAD26";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7BC8550D07C54313CCDF2FDB = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmBezierScrollerAnimation.cpp";
+			name = "sdmBezierScrollerAnimation.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		385101DEB69AA27EDF3FED29 = {
+			fileRef = "7BC8550D07C54313CCDF2FDB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		640B858A35CEC871260C71AB = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmPlug.cpp";
+			name = "sdmPlug.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A8B01DF70B54BD690517B1DB = {
+			fileRef = "640B858A35CEC871260C71AB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AAF157951D4862C711D3C98B = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmPlugGroup.cpp";
+			name = "sdmPlugGroup.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		00C75FECCB3BCF1A25473EC9 = {
+			fileRef = "AAF157951D4862C711D3C98B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D3A6725B7F9149EA263D3DBB = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmPlugConnection.cpp";
+			name = "sdmPlugConnection.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		49265CBEA67381D671061E60 = {
+			fileRef = "D3A6725B7F9149EA263D3DBB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		74961D200D2E077BA093A549 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmPlugConnectionWidget.cpp";
+			name = "sdmPlugConnectionWidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		138FEDC65F6B9B22EE4FEBE8 = {
+			fileRef = "74961D200D2E077BA093A549";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F2C0C8A7FE2C10E0ABAD7AC9 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmSimpleImageItem.cpp";
+			name = "sdmSimpleImageItem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EAA16CB76245CC7525B8B43A = {
+			fileRef = "F2C0C8A7FE2C10E0ABAD7AC9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A495377F6BA76DCBF0127AF3 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmCustomTextItem.cpp";
+			name = "sdmCustomTextItem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2C87A3A77FEE6AC5AF9E171A = {
+			fileRef = "A495377F6BA76DCBF0127AF3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		962DB85E752CF1D27ADB1F81 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmGraphicsMatrix.cpp";
+			name = "sdmGraphicsMatrix.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		ADDB4DC5A58A115647D87215 = {
+			fileRef = "962DB85E752CF1D27ADB1F81";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AAAEB3C3B6A7D61F2B0BD427 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmFilterListWidget.cpp";
+			name = "sdmFilterListWidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B009B3B42CF379A9EA225ABB = {
+			fileRef = "AAAEB3C3B6A7D61F2B0BD427";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0990EA0CB47E6D0B02C7501A = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmFilterListStyleDelegate.cpp";
+			name = "sdmFilterListStyleDelegate.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DD0E42F7F2F7C9D17C509E0A = {
+			fileRef = "0990EA0CB47E6D0B02C7501A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		83E93486AAA265AA3BA5DB02 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/CustomListStyleDelegate.cpp";
+			name = "CustomListStyleDelegate.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		38F0E61C6F0C800E954AF98A = {
+			fileRef = "83E93486AAA265AA3BA5DB02";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8F7CD88F135E02FDAB35E971 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmPainterPathUtility.cpp";
+			name = "sdmPainterPathUtility.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FEE8E306E7BE278DCACFDB68 = {
+			fileRef = "8F7CD88F135E02FDAB35E971";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FE15851A060ADAA115535113 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmStyles.cpp";
+			name = "sdmStyles.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A1158EA02B33080842B2E42C = {
+			fileRef = "FE15851A060ADAA115535113";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BABD50E2FF894EF13CF137E8 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/qrc/qrc_icons.cpp";
+			name = "qrc_icons.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6C784966370D964623EBF26A = {
+			fileRef = "BABD50E2FF894EF13CF137E8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		934711214EF7A94CDDF10D20 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmMainwindow.cpp";
+			name = "moc_sdmMainwindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		70ADC2C2130EEFFCC76137C4 = {
+			fileRef = "934711214EF7A94CDDF10D20";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		824C21B4D76D88D05609FDCC = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmNodeView.cpp";
+			name = "moc_sdmNodeView.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A3D964FDFAD1A2BDE510F57D = {
+			fileRef = "824C21B4D76D88D05609FDCC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		51843A00BFB21E7F93864428 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmSceneItemDrop.cpp";
+			name = "moc_sdmSceneItemDrop.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4520EDF700D5DCFA35609A1E = {
+			fileRef = "51843A00BFB21E7F93864428";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4E5EF4284D7ED3F418B989EF = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmNodeScene.cpp";
+			name = "moc_sdmNodeScene.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B4D1066BDDDBE3609E5B9FCD = {
+			fileRef = "4E5EF4284D7ED3F418B989EF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D122482E5C977AF9C52BD58F = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmNodeControl.cpp";
+			name = "moc_sdmNodeControl.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		177EF75B50E753754C1C54F4 = {
+			fileRef = "D122482E5C977AF9C52BD58F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2172573DD2CADCB464F71F0A = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmBezierScroller.cpp";
+			name = "moc_sdmBezierScroller.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		74F98576301D55A565A525E5 = {
+			fileRef = "2172573DD2CADCB464F71F0A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7D60650F6A9D878415004179 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmBezierScrollerItem.cpp";
+			name = "moc_sdmBezierScrollerItem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E4F6D83106DE59D49491DCEE = {
+			fileRef = "7D60650F6A9D878415004179";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		565F26C56358095D829598BD = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmBezierScrollerAnimation.cpp";
+			name = "moc_sdmBezierScrollerAnimation.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		458F769B0DC24F487E24941D = {
+			fileRef = "565F26C56358095D829598BD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D8CF1E6094F295776A7F4CF6 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmPlug.cpp";
+			name = "moc_sdmPlug.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		515CCF9B29BDB7DF2397FC07 = {
+			fileRef = "D8CF1E6094F295776A7F4CF6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		ACC5B0746378FA46930FD885 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmPlugGroup.cpp";
+			name = "moc_sdmPlugGroup.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5899641DA56AEC8EB6422F27 = {
+			fileRef = "ACC5B0746378FA46930FD885";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		095E0F773FD00CEADEC0A937 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmPlugConnection.cpp";
+			name = "moc_sdmPlugConnection.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		36C0D5940AABCF6FFF929CAD = {
+			fileRef = "095E0F773FD00CEADEC0A937";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EEB11FE5EF452BFB81EF8835 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmPlugConnectionWidget.cpp";
+			name = "moc_sdmPlugConnectionWidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		70DCBB3D09C11AA96F00A72B = {
+			fileRef = "EEB11FE5EF452BFB81EF8835";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5CF6A6CE90D82C3EC92669B8 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmSimpleImageItem.cpp";
+			name = "moc_sdmSimpleImageItem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		56767D395B50A85DE39801E1 = {
+			fileRef = "5CF6A6CE90D82C3EC92669B8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		39152643D92BDDEDFF800B4E = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmCustomTextItem.cpp";
+			name = "moc_sdmCustomTextItem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		582F3CA37BC9DF2BB27FE5FF = {
+			fileRef = "39152643D92BDDEDFF800B4E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8BD75B14A657E6E6084D6B88 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmGraphicsMatrix.cpp";
+			name = "moc_sdmGraphicsMatrix.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8FB5C02C328AB839D66DF2E7 = {
+			fileRef = "8BD75B14A657E6E6084D6B88";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		57A32F4A7BD20DA2CADE7DA7 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/moc/moc_sdmFilterListWidget.cpp";
+			name = "moc_sdmFilterListWidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BABEA7F9E94477F77A9E5638 = {
+			fileRef = "57A32F4A7BD20DA2CADE7DA7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AF582F652B43806ABDB7A65F = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/sdmMainwindow.h";
+			name = "sdmMainwindow.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		87F6828AB5E97CB6A183031C = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmConstants.h";
+			name = "sdmConstants.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E9DD92B2E69A581A3752B9D9 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmNodeLibrary.h";
+			name = "sdmNodeLibrary.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C0F939A9D96D51C75BF5A729 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmNodeView.h";
+			name = "sdmNodeView.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D7AC60E68F1EF39A43CE64FF = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmSceneItemDrop.h";
+			name = "sdmSceneItemDrop.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AD6DA416275E04068966465B = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmNodeScene.h";
+			name = "sdmNodeScene.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6933F9A6546385A8663786DB = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmNodeControl.h";
+			name = "sdmNodeControl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		69B12E967844F83BBAE4FBED = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmBezierScroller.h";
+			name = "sdmBezierScroller.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		BC395713A446723935E41ECF = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmBezierScrollerItem.h";
+			name = "sdmBezierScrollerItem.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A360E86993D66DA97BDC1037 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmBezierScrollerAnimation.h";
+			name = "sdmBezierScrollerAnimation.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		87911AAD2D9BB9F7628E22FE = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmPlug.h";
+			name = "sdmPlug.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A242B97EEAD0483C64FA3C2E = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmPlugGroup.h";
+			name = "sdmPlugGroup.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9C61E0B42D079CF119290959 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmPlugConnection.h";
+			name = "sdmPlugConnection.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		403E4A43011A1024D80FE919 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmPlugConnectionWidget.h";
+			name = "sdmPlugConnectionWidget.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		849DDBB27D2E9C04E493B333 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmSimpleImageItem.h";
+			name = "sdmSimpleImageItem.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		97D503DDE304DCB9336C6B9F = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmCustomTextItem.h";
+			name = "sdmCustomTextItem.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		629E4211D5B4380CFE626B54 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmGraphicsMatrix.h";
+			name = "sdmGraphicsMatrix.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5E27E5CE0B2ACD35ABD61458 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmFilterListWidget.h";
+			name = "sdmFilterListWidget.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		432D8ACA7A318CFF70542EA1 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmFilterListStyleDelegate.h";
+			name = "sdmFilterListStyleDelegate.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7FBAF54A3F152B1FB3B76F14 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/CustomListStyleDelegate.h";
+			name = "CustomListStyleDelegate.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E46F90E048CF932776949B44 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmPainterPathUtility.h";
+			name = "sdmPainterPathUtility.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3570792EB307960566CDFE48 = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/src/spencers/sdmStyles.h";
+			name = "sdmStyles.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3B57D5483F7DD0DE8B66BADC = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/CecropiaGraph.pro";
+			name = "CecropiaGraph.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		229C50C6BF007515CAB2A75E = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		7DD6881891E58565CAD2E33C = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/res/svg/icons.qrc";
+			name = "icons.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		7DD6881891E58565CAD2E33C = {
+			isa = PBXFileReference;
+			path = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/res/svg/icons.qrc";
+			name = "icons.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		7A8DEE8EABB1A432D842F893 = {
+			fileRef = "7DD6881891E58565CAD2E33C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"4A35260765064D72943021F4");
+			name = "Generated Sources";
+			sourceTree = "<Group>";
+		};
+		4A35260765064D72943021F4 = {
+			isa = PBXGroup;
+			children = (
+				"3C4C27987523EDEA6C4A132F");
+			name = "Generated-Files";
+			sourceTree = "<Group>";
+		};
+		3C4C27987523EDEA6C4A132F = {
+			isa = PBXGroup;
+			children = (
+				"178A2ABCED69628A7D5E0D78",
+				"C9B7A7D1D901DB78B230E372");
+			name = "Debug";
+			sourceTree = "<Group>";
+		};
+		C9B7A7D1D901DB78B230E372 = {
+			isa = PBXGroup;
+			children = (
+				"934711214EF7A94CDDF10D20",
+				"824C21B4D76D88D05609FDCC",
+				"51843A00BFB21E7F93864428",
+				"4E5EF4284D7ED3F418B989EF",
+				"D122482E5C977AF9C52BD58F",
+				"2172573DD2CADCB464F71F0A",
+				"7D60650F6A9D878415004179",
+				"565F26C56358095D829598BD",
+				"D8CF1E6094F295776A7F4CF6",
+				"ACC5B0746378FA46930FD885",
+				"095E0F773FD00CEADEC0A937",
+				"EEB11FE5EF452BFB81EF8835",
+				"5CF6A6CE90D82C3EC92669B8",
+				"39152643D92BDDEDFF800B4E",
+				"8BD75B14A657E6E6084D6B88",
+				"57A32F4A7BD20DA2CADE7DA7");
+			name = "moc";
+			sourceTree = "<Group>";
+		};
+		178A2ABCED69628A7D5E0D78 = {
+			isa = PBXGroup;
+			children = (
+				"BABD50E2FF894EF13CF137E8");
+			name = "qrc";
+			sourceTree = "<Group>";
+		};
+		593DF2FDF2AE5CA3E19C0414 = {
+			isa = PBXGroup;
+			children = (
+				"6922E355FA80853888982739");
+			name = "res";
+			sourceTree = "<Group>";
+		};
+		6922E355FA80853888982739 = {
+			isa = PBXGroup;
+			children = (
+				"7DD6881891E58565CAD2E33C");
+			name = "svg";
+			sourceTree = "<Group>";
+		};
+		921315FAA7F261D737F4F4C7 = {
+			isa = PBXGroup;
+			children = (
+				"AEF980173E6E16EC40F92951",
+				"FDFF65891C678D899A70CFB6",
+				"6D6B72DF22E3ED711CAB85DD",
+				"AF582F652B43806ABDB7A65F");
+			name = "src";
+			sourceTree = "<Group>";
+		};
+		6D6B72DF22E3ED711CAB85DD = {
+			isa = PBXGroup;
+			children = (
+				"668CC88F72C0D59B2A07AB31",
+				"D22E06BF8A8D385838DA1A0A",
+				"091E2AC78AB5E4C48D3F2BB4",
+				"16410223F39856E0A3DBF194",
+				"46F67DA8BB93698B6D31C9C2",
+				"21D9DE1EA8D8DA1315E99311",
+				"2028C64EACC8DA48AE0A142A",
+				"985AC89F83328254418CAD26",
+				"7BC8550D07C54313CCDF2FDB",
+				"640B858A35CEC871260C71AB",
+				"AAF157951D4862C711D3C98B",
+				"D3A6725B7F9149EA263D3DBB",
+				"74961D200D2E077BA093A549",
+				"F2C0C8A7FE2C10E0ABAD7AC9",
+				"A495377F6BA76DCBF0127AF3",
+				"962DB85E752CF1D27ADB1F81",
+				"AAAEB3C3B6A7D61F2B0BD427",
+				"0990EA0CB47E6D0B02C7501A",
+				"83E93486AAA265AA3BA5DB02",
+				"8F7CD88F135E02FDAB35E971",
+				"FE15851A060ADAA115535113",
+				"87F6828AB5E97CB6A183031C",
+				"E9DD92B2E69A581A3752B9D9",
+				"C0F939A9D96D51C75BF5A729",
+				"D7AC60E68F1EF39A43CE64FF",
+				"AD6DA416275E04068966465B",
+				"6933F9A6546385A8663786DB",
+				"69B12E967844F83BBAE4FBED",
+				"BC395713A446723935E41ECF",
+				"A360E86993D66DA97BDC1037",
+				"87911AAD2D9BB9F7628E22FE",
+				"A242B97EEAD0483C64FA3C2E",
+				"9C61E0B42D079CF119290959",
+				"403E4A43011A1024D80FE919",
+				"849DDBB27D2E9C04E493B333",
+				"97D503DDE304DCB9336C6B9F",
+				"629E4211D5B4380CFE626B54",
+				"5E27E5CE0B2ACD35ABD61458",
+				"432D8ACA7A318CFF70542EA1",
+				"7FBAF54A3F152B1FB3B76F14",
+				"E46F90E048CF932776949B44",
+				"3570792EB307960566CDFE48");
+			name = "spencers";
+			sourceTree = "<Group>";
+		};
+		AE61DEBFAB686F34C1D47357 = {
+			isa = PBXGroup;
+			children = (
+				"5237B278D3E0F751EFB167AB");
+			name = "res";
+			sourceTree = "<Group>";
+		};
+		5237B278D3E0F751EFB167AB = {
+			isa = PBXGroup;
+			children = (
+				"7DD6881891E58565CAD2E33C");
+			name = "svg";
+			sourceTree = "<Group>";
+		};
+		87DF60DE337FB58864343E39 = {
+			isa = PBXGroup;
+			children = (
+				"593DF2FDF2AE5CA3E19C0414");
+			name = "Resources";
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"921315FAA7F261D737F4F4C7");
+			name = "Sources";
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"3B57D5483F7DD0DE8B66BADC",
+				"229C50C6BF007515CAB2A75E",
+				"AE61DEBFAB686F34C1D47357");
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode -f qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"3AED48CD172A414A96D0182E",
+				"88DB8DD9594EF1359BE05713",
+				"55F9BAFB69FC204A1669C5A4",
+				"33E1AD3CF950CAFBE778C4EB",
+				"195EBB453E887C6BF462CF6E",
+				"10440BE116D9DC756FAF1111",
+				"F5C3974AF919D32322630E4B",
+				"100A5D4A7E0595F2AB5CC7F9",
+				"D96E2E43365F16F2B4A1F518",
+				"76152351DE006F31A334DBF1",
+				"385101DEB69AA27EDF3FED29",
+				"A8B01DF70B54BD690517B1DB",
+				"00C75FECCB3BCF1A25473EC9",
+				"49265CBEA67381D671061E60",
+				"138FEDC65F6B9B22EE4FEBE8",
+				"EAA16CB76245CC7525B8B43A",
+				"2C87A3A77FEE6AC5AF9E171A",
+				"ADDB4DC5A58A115647D87215",
+				"B009B3B42CF379A9EA225ABB",
+				"DD0E42F7F2F7C9D17C509E0A",
+				"38F0E61C6F0C800E954AF98A",
+				"FEE8E306E7BE278DCACFDB68",
+				"A1158EA02B33080842B2E42C",
+				"6C784966370D964623EBF26A",
+				"70ADC2C2130EEFFCC76137C4",
+				"A3D964FDFAD1A2BDE510F57D",
+				"4520EDF700D5DCFA35609A1E",
+				"B4D1066BDDDBE3609E5B9FCD",
+				"177EF75B50E753754C1C54F4",
+				"74F98576301D55A565A525E5",
+				"E4F6D83106DE59D49491DCEE",
+				"458F769B0DC24F487E24941D",
+				"515CCF9B29BDB7DF2397FC07",
+				"5899641DA56AEC8EB6422F27",
+				"36C0D5940AABCF6FFF929CAD",
+				"70DCBB3D09C11AA96F00A72B",
+				"56767D395B50A85DE39801E1",
+				"582F3CA37BC9DF2BB27FE5FF",
+				"8FB5C02C328AB839D66DF2E7",
+				"BABEA7F9E94477F77A9E5638");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		3F4D352983E7D41B5B684208 = {
+			isa = PBXFileReference;
+			name = "QtSvg.framework";
+			path = "/Users/Home/Documents/Qt/5.5/clang_64/lib/QtSvg.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		E08E41F9C3BCA900AF862EBF = {
+			fileRef = "3F4D352983E7D41B5B684208";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D9EC6F560C79A09621F55AFE = {
+			isa = PBXFileReference;
+			name = "QtWidgets.framework";
+			path = "/Users/Home/Documents/Qt/5.5/clang_64/lib/QtWidgets.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0601FCEBC7159D90216A857F = {
+			fileRef = "D9EC6F560C79A09621F55AFE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8167E7A3CE027CE8CDC50F0C = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "/Users/Home/Documents/Qt/5.5/clang_64/lib/QtGui.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		2FC6EBA24F892EC67E72E7B4 = {
+			fileRef = "8167E7A3CE027CE8CDC50F0C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		64C89F1134578DC360DA37E6 = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		7DF1FE8DA5590941EB40AC0C = {
+			fileRef = "64C89F1134578DC360DA37E6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2B774D8E4178765CE52EAAF5 = {
+			isa = PBXFileReference;
+			name = "DiskArbitration.framework";
+			path = "/System/Library/Frameworks/DiskArbitration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		A99B2AA0F9CBBDD12BA126A4 = {
+			fileRef = "2B774D8E4178765CE52EAAF5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A1A67BEAA744704B29168D39 = {
+			isa = PBXFileReference;
+			name = "IOKit.framework";
+			path = "/System/Library/Frameworks/IOKit.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8D267F2E4776F0ECA2F49DC8 = {
+			fileRef = "A1A67BEAA744704B29168D39";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4B32C2222F82AC56BADEB21 = {
+			isa = PBXFileReference;
+			name = "OpenGL.framework";
+			path = "/System/Library/Frameworks/OpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8771A8C96E9C391044035D99 = {
+			fileRef = "D4B32C2222F82AC56BADEB21";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D9815BDB5BD9F90D2BC05C5 = {
+			isa = PBXFileReference;
+			name = "AGL.framework";
+			path = "/System/Library/Frameworks/AGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		E45E51A644D5FC9F942ECE55 = {
+			fileRef = "8D9815BDB5BD9F90D2BC05C5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"3F4D352983E7D41B5B684208",
+				"D9EC6F560C79A09621F55AFE",
+				"8167E7A3CE027CE8CDC50F0C",
+				"64C89F1134578DC360DA37E6",
+				"2B774D8E4178765CE52EAAF5",
+				"A1A67BEAA744704B29168D39",
+				"D4B32C2222F82AC56BADEB21",
+				"8D9815BDB5BD9F90D2BC05C5");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<Group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"E08E41F9C3BCA900AF862EBF",
+				"0601FCEBC7159D90216A857F",
+				"2FC6EBA24F892EC67E72E7B4",
+				"7DF1FE8DA5590941EB40AC0C",
+				"A99B2AA0F9CBBDD12BA126A4",
+				"8D267F2E4776F0ECA2F49DC8",
+				"8771A8C96E9C391044035D99",
+				"E45E51A644D5FC9F942ECE55");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		9C316F444A62BF296E3E1F25 = {
+			isa = PBXShellScriptBuildPhase;
+			name = "Project Copy";
+			buildActionMask = 2147483647;
+			files = (
+				);
+			inputPaths = (
+				);
+			outputPaths = (
+				);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh";
+			shellScript = "cp -r $BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME /Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug";
+			showEnvVarsInLog = "0";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		BD42D23A8C96F46298157D66 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "CecropiaGraph.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"BD42D23A8C96F46298157D66");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"74B182DB50CB5611B5C1C297",
+				"87DF60DE337FB58864343E39",
+				"AF39DD055C3EF8226FBE929D",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "CecropiaGraph";
+			sourceTree = "<Group>";
+		};
+		F94E490498DF3C61519CD8DC = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		665EEA056257FA06B074A0C8 = {
+			isa = PBXTargetDependency;
+			target = "F94E490498DF3C61519CD8DC";
+		};
+		E7EA34BE34A5871207AA46E2 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"9C316F444A62BF296E3E1F25",
+				"30414803F31797EB689AE508");
+			dependencies = (
+				"665EEA056257FA06B074A0C8");
+			productReference = "BD42D23A8C96F46298157D66";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "CecropiaGraph";
+			productName = "CecropiaGraph";
+			productInstallPath = "Generated-Files/Debug/";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "CecropiaGraph";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				CPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/usr/bin/g++";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode";
+				INSTALL_DIR = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.7";
+				HEADER_SEARCH_PATHS = (
+					".",
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib/QtSvg.framework/Headers",
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers",
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib/QtGui.framework/Headers",
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers",
+					"Generated-Files/Debug/moc",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/Users/Home/Documents/Qt/5.5/clang_64/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib",
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_USE_QSTRINGBUILDER",
+					"-DQT_NO_DEBUG",
+					"-DQT_SVG_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_USE_QSTRINGBUILDER",
+					"-DQT_NO_DEBUG",
+					"-DQT_SVG_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-Wl,-rpath,/Users/Home/Documents/Qt/5.5/clang_64/lib",
+						"-F/Users/Home/Documents/Qt/5.5/clang_64/lib");
+				ARCHS = "x86_64";
+				OBJROOT = "Generated-Files/Debug/obj/";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "CecropiaGraph";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "CecropiaGraph";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "CecropiaGraph";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				CPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/usr/bin/g++";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode";
+				INSTALL_DIR = "/Users/Home/Documents/Work/Projects/Qt/QtProject-Template/Xcode/Generated-Files/Debug/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.7";
+				HEADER_SEARCH_PATHS = (
+					".",
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib/QtSvg.framework/Headers",
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib/QtWidgets.framework/Headers",
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib/QtGui.framework/Headers",
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib/QtCore.framework/Headers",
+					"Generated-Files/Debug/moc",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/Users/Home/Documents/Qt/5.5/clang_64/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib",
+					"/Users/Home/Documents/Qt/5.5/clang_64/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_USE_QSTRINGBUILDER",
+					"-DQT_NO_DEBUG",
+					"-DQT_SVG_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_USE_QSTRINGBUILDER",
+					"-DQT_NO_DEBUG",
+					"-DQT_SVG_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-Wl,-rpath,/Users/Home/Documents/Qt/5.5/clang_64/lib",
+						"-F/Users/Home/Documents/Qt/5.5/clang_64/lib");
+				ARCHS = "x86_64";
+				OBJROOT = "Generated-Files/Debug/obj/";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "CecropiaGraph";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "CecropiaGraph";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"E7EA34BE34A5871207AA46E2",
+				"F94E490498DF3C61519CD8DC");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

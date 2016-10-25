@@ -1,0 +1,43 @@
+{
+	"version"			: 1.0,
+	
+	"type"				: "com.spencers-dm.node.type.image",
+	"name"				: "Image Source",
+	"icon"				: "fluidobject.svg",
+
+	"blueprint"			: null,
+	"blueprint_desc"	: "Describes the embedded, linked nodes which make THIS.",
+	
+	"support"			: null,
+	"support_desc"		: "A list of categories supported by THIS.",
+	
+	"input"				: ["com.spencers-dm.port.0000", "com.spencers-dm.port.0001", "com.spencers-dm.port.0002"],
+	"output"			: ["com.spencers-dm.port.0003"],
+	
+	"ports"				: [
+		{ 
+			"uid"			: "com.spencers-dm.port.0000",
+			"title"			: "input",
+			"target"		: "object.property.parameter.input",
+			"dataType"		: "com.spencers-dm.port.data-type.int"
+		},
+		{ 
+			"uid"			: "com.spencers-dm.port.0001",
+			"title"			: "input",
+			"target"		: "object.property.parameter.input",
+			"dataType"		: "com.spencers-dm.port.data-type.qreal"
+		},
+		{ 
+			"uid"			: "com.spencers-dm.port.0002",
+			"title"			: "input",
+			"target"		: "object.property.parameter.input",
+			"dataType"		: "com.spencers-dm.port.data-type.qreal"
+		},
+		{ 
+			"uid"			: "com.spencers-dm.port.0003",
+			"title"			: "output",
+			"target"		: "object.property.parameter.output",
+			"dataType"		: "com.spencers-dm.port.data-type.boolean"
+		}
+	]
+}

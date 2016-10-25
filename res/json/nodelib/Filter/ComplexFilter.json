@@ -1,0 +1,34 @@
+{
+	"version"			: 1.0,
+	
+	"type"				: "com.spencers-dm.node.type.label",
+	"name"				: "Complex Filter",
+	"icon"				: null,
+
+	"blueprint"			: null,
+	"blueprint_desc"	: "Describes the embedded, linked nodes which make THIS.",
+	
+	"support"			: null,
+	"support_desc"		: "A list of categories supported by THIS.",
+	
+	"input"				: ["com.spencers-dm.port.0000"],
+	"output"			: ["com.spencers-dm.port.0003"],
+	
+	"ports"				: [
+		{ 
+			"uid"			: "com.spencers-dm.port.0000",
+			"title"			: "input",
+			"target"		: "object.property.parameter.input",
+			"target_desc"	: "Expression describing target path: object, scalar, boolean, etc...",
+			"dataType"		: "com.spencers-dm.port.data-type.int",
+			"dataType_desc"	: "Supported type(s):bool, int, qreal, QVariant, QObject, etc..."
+		},
+		{ 
+			"uid"			: "com.spencers-dm.port.0003",
+			"title"			: "output",
+			"target"		: "object.property.parameter.output",
+			"target_desc"	: "Expression describing target path: object, scalar, boolean, etc...",
+			"dataType"		: "com.spencers-dm.port.data-type.boolean"
+		}
+	]
+}

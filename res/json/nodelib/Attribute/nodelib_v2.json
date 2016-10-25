@@ -1,0 +1,54 @@
+{
+	"version"			: 1.0,
+	
+	"type"				: "com.spencers-dm.node.type.default",
+	"name"				: "My First Node",
+	"icon"				: "geo.svg",
+
+	"blueprint"			: ["todo"],
+	"blueprint_desc"	: "Describes the embedded, linked nodes which make THIS.",
+	
+	"support"			: ["Attribute", "Misc..."],
+	"support_desc"		: "All the type(s) of node supported by THIS.",
+	
+	"input"				: ["com.spencers-dm.port.0000", "com.spencers-dm.port.0004", "com.spencers-dm.port.0004", "com.spencers-dm.port.0001", "com.spencers-dm.port.0001", "com.spencers-dm.port.0002"],
+	"output"			: ["com.spencers-dm.port.0003"],
+	
+	"ports"				: [
+		{ 
+			"uid"			: "com.spencers-dm.port.0000",
+			"title"			: "input",
+			"target"		: "object.property.parameter.input",
+			"target_desc"	: "Expression describing target path: object, scalar, boolean, etc...",
+			"dataType"		: "com.spencers-dm.port.data-type.int",
+			"dataType_desc"	: "Supported type(s):bool, int, qreal, QVariant, QObject, etc..."
+		},
+		{ 
+			"uid"			: "com.spencers-dm.port.0001",
+			"title"			: "input",
+			"target"		: "object.property.parameter.input",
+			"target_desc"	: "Expression describing target path: object, scalar, boolean, etc...",
+			"dataType"		: "com.spencers-dm.port.data-type.qreal"
+		},
+		{ 
+			"uid"			: "com.spencers-dm.port.0002",
+			"title"			: "input",
+			"target"		: "object.property.parameter.input",
+			"target_desc"	: "Expression describing target path: object, scalar, boolean, etc...",
+			"dataType"		: "com.spencers-dm.port.data-type.qreal"
+		},
+		{ 
+			"uid"			: "com.spencers-dm.port.0003",
+			"title"			: "output",
+			"target"		: "object.property.parameter.output",
+			"target_desc"	: "Expression describing target path: object, scalar, boolean, etc...",
+			"dataType"		: "com.spencers-dm.port.data-type.boolean"
+		},
+		{ 
+			"uid"			: "com.spencers-dm.port.0004",
+			"title"			: "input",
+			"target"		: "object.property.parameter.input",
+			"dataType"		: "com.spencers-dm.port.data-type.string"
+		}
+	]
+}
