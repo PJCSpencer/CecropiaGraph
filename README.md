@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="" target="_blank">
+  <a href="https://vimeo.com/188797891" target="_blank">
     <img src="http://www.spencers-digital-media.com/projects/cecropia-graph/docs/vimeo_thumbnail.png" alt="CecropiaGraph Demonstration"/>
   </a>
   A general-purpose, 2d node graph GUI using Qt.
