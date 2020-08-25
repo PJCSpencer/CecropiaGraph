@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://vimeo.com/188797891" target="_blank">
-    <img src="https://github.com/PJCSpencer/CecropiaGraph/blob/preview_20200825-0951.png" alt="CecropiaGraph Demonstration"/>
+    <img src="https://github.com/PJCSpencer/CecropiaGraph/blob/master/preview_20200825-0951.png" alt="CecropiaGraph Demonstration"/>
   </a>
   A general-purpose, 2d node graph GUI using Qt.
 </p>
